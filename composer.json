@@ -1,0 +1,22 @@
+{
+  "require": {
+    "league/plates": "^3.4",
+    "slim/slim": "4.*",
+    "ilexn/swoole-convert-psr7": "^0.6.0",
+    "nyholm/psr7": "^1.5",
+    "jvomartins/mainbase": "dev-master"
+  },
+  "config": {
+    "platform": {
+      "php": "8.3"
+    },
+    "process-timeout": 600,
+    "COMPOSER_ALLOW_SUPERUSER": 1
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/JVOMartins/mainbase.git"
+    }
+  ]
+}
